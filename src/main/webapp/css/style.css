@@ -49,6 +49,33 @@ html {
     height: 100vh;
     border: 0
 }
+
+.white-box-choose{
+    background: white;
+    max-width: 500px;
+    padding: 30px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 320px;
+    text-align: center;
+    padding-bottom: 80px
+}
+.white-box-choose h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.btn-choose{
+    padding: 10px;
+    border: 1px solid #d2e63c;
+    border-radius: 24px;
+    color: black
+}
+.btn-choose:hover{
+    background: #d2e63c;
+}
+a:hover{
+    text-decoration: none
+}
 .msg-on{
     position: absolute;
     z-index: 3;
@@ -79,6 +106,9 @@ html {
     cursor: pointer;
     margin-top: 0
 }
+.choose-row{
+    padding: 30px
+}
 .footer-row a{
     color: white
 }
@@ -97,7 +127,7 @@ html {
     color: #666666;
 }
 .oi-body{
-    background:  #0d1a11;
+    background: url(../images/bg-oi.png) no-repeat center #0d1a11 ;
     background-size: contain;
     height: 100vh;
     overflow: hidden;
@@ -554,6 +584,14 @@ box-shadow: -1px -12px 48px 90px rgba(24,41,24,0.75);
         margin: 0 auto;
      
         padding: 20px
+    }
+}
+@media screen and (max-width:769px){
+    .white-box-choose{
+        padding-bottom: 130px
+    }
+    .btn-choose{
+        margin-bottom: 10px
     }
 }
 @media screen and (max-width:660px){

@@ -1,0 +1,363 @@
+.oi-body{
+    overflow-y: scroll
+}
+.row-fibra{
+background: rgb(0,0,0);
+background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(2,30,7,1) 34%);
+    margin-top: 0px;
+    padding-top: 150px;
+    text-align: center;
+    color: white;
+    
+}
+.green-divisor{
+    height: 3px;
+    width: 50px;
+    background: #65a746;
+    margin: 0 auto;
+    
+}
+.footer-tel{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 100px
+}
+
+.footer-tel a{
+    color: white
+}
+h6{
+    padding: 0 35px 0 20px
+}
+a:hover{
+    text-decoration: none
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	
+  z-index:100;
+    transition: .2s ease
+}
+.float:hover{
+    color: black;
+    background: white
+}
+
+.my-float{
+	margin-top:16px;
+}
+.btn-sell{
+    background: #bfd03c;
+    width: 250px;
+    margin: 0 auto;
+    padding:15px 10px;
+    border-radius: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: black
+}
+.btn-sell:hover{
+    text-decoration: none;
+    background: white
+}
+.row-fibra p{
+    margin-top: 20px;
+    font-family: 'montserrat';
+    color: white;
+}
+.text-legal{
+    font-family: 'montserrat' ;
+    font-size: 10px;
+  
+}
+.row-promo{
+    background: url(../images/BG-COMO.png) right no-repeat;
+    background-size: cover;
+    height: 700px
+}
+.row-promo .lw img{
+    max-width: 500px
+}
+.row-promo .lw{
+    margin-top: 250px;
+    margin-left: -80px
+}
+.menu-row{
+    background: rgba(17,39,22,0.7) !important;
+    height: 100px !important;
+    left: 8px
+}
+.footer-row{
+    padding-bottom: 50px
+}
+.bg-a1{
+    background: url(../images/a1.jpg);
+    width: 100%;
+    height: 530px;
+    padding: 50px
+  
+}
+.bg-a1 .green-divisor{
+    margin-top: 30%
+}
+.bg-a1 h1{
+    margin-top: -50px;
+    font-size: 35px !important;
+}
+.bg-a1 p{
+    margin-top: -60px
+}
+.bg-a2{
+    background: url(../images/a2.jpg);
+    width: 100%;
+    height: 250px
+}
+.bg-a3{
+    background: url(../images/a3.jpg);
+    width: 100%;
+    height: 250px
+}
+.bg-a4{
+    background: url(../images/a4.jpg);
+    width: 100%;
+    height: 250px
+}
+.bg-a5{
+    background: url(../images/a5.jpg);
+    width: 100%;
+    height: 250px
+}
+.grid-infos{
+   padding-top: 220px;
+    color: white
+}
+.grid-infos p{
+    color: white
+}
+.grid-infos h1{
+    font-size: 20px
+}
+.grid-infos div{
+    display: grid;
+    grid-gap: 30px;
+
+}
+.bg-a1,.grid-cont{
+        border: #65a246 1px solid
+}
+
+.grid-sub{
+    grid-template-columns: 1fr 1fr
+}
+.grid-sub .green-divisor{
+     margin-top: 15%
+}
+.grid-sub .grid-cont{
+    padding: 20px
+}
+.grid-sub p{
+    margin-top: -50px;
+    font-size: 12px;
+
+}
+.grid-sub h1{
+    
+margin-top: -30px
+}
+.entenda-row{
+    margin-top: 50px;
+    padding: 50px 0;
+    background: #021e07;
+    text-align: center 
+}
+.entenda-row img{
+    width: 100%
+}
+.entenda-row .title-oi{
+    margin-bottom: 30px
+}
+.entenda-row p{
+   
+    margin-top: 80px
+}
+.suporte-row {
+    padding: 30px 0 80px;
+}
+.suporte-row .lw{
+    text-align: left;
+}
+.suporte-row-sub{
+    margin: 30px 0;
+    text-align: left;
+}
+.suporte-row .title-oi{
+    margin-bottom: 30px
+}
+.s-title{
+    margin-top: 50px
+}
+.btn-tec{
+    background: #65a746;;
+    padding: 12px 50px;
+    color: white;
+    font-family: 'montserrat';
+    font-size: 16px;
+    width: 360px;
+    margin-top: 40px
+}
+.suporte-row a:hover{
+    text-decoration: none;
+}
+.btn-tec img{
+    width: 34px;
+    margin-right: 30px;
+
+}
+.suporte-row .rw img{
+    width: 115%
+}
+.suporte-row .rw{
+    padding: 10px;
+    margin-left: 80px;
+    margin-top: 20px
+}
+.suporte-row-sub img{
+    width: 100%;
+}
+@media screen and (max-width:1300px){
+    .row-promo .lw{
+    margin-top: 120px;
+    margin-left: -00px
+}
+    .row-promo{
+        height: 500px;
+        margin-top: 100px
+    }
+}
+
+@media screen and (max-width:1200px){
+    .entenda-row p{
+        margin-top: 20px
+    }
+    .suporte-row .rw img{
+    width: 150%
+}
+.suporte-row .rw{
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 20px
+}
+}
+@media screen and (max-width:990px){
+    .row-fibra{
+        margin-top: 0px
+    }
+    .grid-sub h1{
+    
+margin-top: -70px
+}
+    .menu-row{
+        box-shadow: none;
+    }
+    .bg-a1,.bg-a2,.bg-a3,.bg-a4,.bg-a5{
+        background-size:cover;
+    }
+    .bg-a1 .green-divisor{
+        margin-top: 15%
+    }
+    .bg-a1{
+        margin: 30px 0
+    }
+    .entenda-row p{
+        text-align: center;
+        margin-top: 30px
+    }
+    .suporte-row div{
+        text-align: center !important
+    }
+    .btn-tec{
+        margin: 35px auto;
+        margin: 
+    }
+    .suporte-row-sub img{
+        width: 80%;
+        margin: 0 auto;
+    }
+        .suporte-row .rw img{
+    width: 100%
+}
+.suporte-row .rw{
+    padding: 0px;
+    margin-left: 0px;
+    margin-top: 50px
+}
+    .btn-tec{
+        width: 100%;
+        padding: 15px 10px
+    }
+    .title-oi h1{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .row-fibra h1{
+        padding-top: 50px
+    }
+    
+    .row-promo{
+        background-position: right;
+        height: 600px
+    }
+    .row-promo .lw img{
+     
+        margin: 0 auto;
+           margin-top: 580px;
+        display: block;
+        margin-bottom: 100px
+    }
+}
+@media screen and (max-width:765px){
+    .row-fibra{
+        padding: 0 20px;
+        padding-top: 100px
+    }
+      .suporte-row-sub img{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width:765px){
+     .row-promo{
+        background-position: right;
+        height: 470px
+    }
+      .row-promo .lw img{
+        width: 100%;
+          padding: 30px;
+          margin-top: 420px;
+          margin-bottom: 70px
+      
+    }
+}
+@media screen and (max-width:765px){
+       .row-promo{
+        background-position: right;
+        height: 380px
+    }
+       .row-promo .lw img{
+        width: 100%;
+          padding: 30px;
+          margin-top: 380px;
+          margin-bottom: 70px
+      
+    }
+}

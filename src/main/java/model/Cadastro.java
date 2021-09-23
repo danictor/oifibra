@@ -9,6 +9,7 @@ public class Cadastro {
 	private String email;
 	private String telefone;
 	private String cep;
+	private String numFaixada;
 	private Boolean avisoEmail;
 	private Boolean avisoWhatsapp;
 	private Date data;
@@ -26,6 +27,7 @@ public class Cadastro {
 		this.telefone = telefone;
 		this.cep = cep;
 		this.data = data;
+		this.numFaixada = numFaixada;
 	}
 
 	public Integer getId() {
@@ -90,6 +92,14 @@ public class Cadastro {
 
 	public void setData(Date data) {
 		this.data = data;
+	}
+
+	public String getNumFaixada() {
+		return numFaixada;
+	}
+
+	public void setNumFaixada(String numFaixada) {
+		this.numFaixada = numFaixada;
 	}
 
 }
