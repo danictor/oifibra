@@ -419,7 +419,11 @@ background: linear-gradient(180deg, rgba(2,30,7,1) 64%, rgba(30,65,40,1) 100%);
         padding-right: 5px
     }
 }
-
+@media screen and (max-width:1200px){
+    .form-holder{
+      height: 530px 
+    }
+}
 @media screen and (max-width:990px){
     .bg-oi{
         margin: 0 auto;

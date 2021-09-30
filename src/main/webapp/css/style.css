@@ -128,7 +128,7 @@ a:hover{
 }
 .oi-body{
     background: url(../images/bg-oi.png) no-repeat center #0d1a11 ;
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     overflow: hidden;
 }

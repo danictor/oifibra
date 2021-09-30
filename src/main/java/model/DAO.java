@@ -59,15 +59,17 @@ public class DAO {
 	
 	public boolean validaCep(String cep, String numFaixada) {
 		String read = "select * from cep_bloqueado where cep = ? and num_faixada = ? limit 1";
+		
 		try {
 			// abro conexão
 			Connection con = conectar();
 			// preparo query para execução
 			PreparedStatement pst = con.prepareStatement(read);
 			// substituir os parametros pelas variaveis
-			pst.setString(1, cep);
-			pst.setString(2, numFaixada);
+			pst.setInt(1, Integer.valueOf(cep));
+			pst.setInt(2, Integer.valueOf(numFaixada));
 			//execute
+			System.out.println(pst.executeQuery().toString());
 			ResultSet rs = pst.executeQuery();
 			
 			while(rs.next()){

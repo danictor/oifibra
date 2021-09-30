@@ -83,7 +83,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="form-holder">
                             <h1>QUERO OI FIBRA NA MINHA CASA</h1>
                             <p> Para saber mais preencha os dados e receba o contato do nosso vendedor para mais informações e consulta de cobertura </p>
-                            <form method="post" autocomplete="off" name="google-sheet" runat="server">
+                           <form method="get" autocomplete="off" action="insert" runat="server">
                                 
                                 <div class="row">
                                     
@@ -92,10 +92,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                   <input type="text" id="name" name="nome" placeholder="NOME">
                                 </label>
                                     </div>
-                                    
-                           
-                                    
-                                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-12">
+                                         
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <label for="email">
                                   <input type="email" id="email" name="email" placeholder="E-MAIL">
                                 </label>
@@ -105,9 +103,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                   <input type="text" id="tel" name="tel" placeholder="TEL 1*">
                                 </label>
                                     </div>
-                                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                                 <label for="cep">
                                   <input type="text" id="cep" name="cep" placeholder="CEP">
+                                </label>
+                                    </div>
+                                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <label for="numFaixada">
+                                  <input type="text" id="numFaixada" name="numFaixada" placeholder="Número Fachada">
                                 </label>
                                     </div>
                                 <!--INVI--><div class="hide-infos">
@@ -174,7 +177,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </div>
                                     
                                     </div><!--END FORM-->
-                            </form>    
+                            </form>      
                         </div>
                        
                        <div class="row footer-row">
@@ -234,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
  
  setTimeout(function(){
-  window.location = "https://cadastrejaoifibrasp.com.br/teste/enviado.html";
+  window.location = "enviado.html";
  },delay);
  
 }
